@@ -8,6 +8,6 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
-    session[:username]
+    session[:name]
   end
 end
